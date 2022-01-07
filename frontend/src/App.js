@@ -1,4 +1,4 @@
-import Coba from "./container/Coba";
+import Dashboard from "./container/Dashboard";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Navig from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <Navig />
         <Switch>
-          <Route path="/" component={Coba} exact />
+          <Route path="/" component={Dashboard} exact />
         </Switch>
         <Footer />
       </div>
