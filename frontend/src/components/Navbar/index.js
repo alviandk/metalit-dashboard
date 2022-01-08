@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
-import { Home, Course, Login, Daftar } from "../../constant";
+import { Home, Course, Login, Daftar, Blog } from "../../constant";
 import { Nav, Navbar } from "react-bootstrap";
 
 const Navig = () => {
@@ -19,10 +19,10 @@ const Navig = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <Nav.Link className="nav-item text-uppercase px-3 " href={Course}>Pelatihan</Nav.Link>
-            <NavLink to="/" className="nav-item text-uppercase px-3 nav-link active">Blog</NavLink>
-            <Nav.Link className="nav-item text-uppercase px-3 " href={Login}>Login</Nav.Link>
-            <Nav.Link className="nav-item text-uppercase px-3 " href={Daftar}>Daftar</Nav.Link>
+            <Nav.Link className="nav-item text-uppercase px-3" href={Course}>Pelatihan</Nav.Link>
+            <Nav.Link className="nav-item text-uppercase px-3" href={Blog}>Blog</Nav.Link>
+            <Nav.Link className="nav-item text-uppercase px-3" href={Login}>Login</Nav.Link>
+            <Nav.Link className="nav-item text-uppercase px-3" href={Daftar}>Daftar</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </div>

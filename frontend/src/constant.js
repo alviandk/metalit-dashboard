@@ -1,3 +1,4 @@
+export const Blog = process.env.REACT_APP_BLOG_URL
 export const Home = process.env.REACT_APP_METALIT_URL
 export const Course = Home + `/course`
 export const About = Home + `/about`

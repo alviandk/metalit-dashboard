@@ -1,8 +1,10 @@
-import Dashboard from "./container/Dashboard";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import './index.css';
 import Navig from "./components/Navbar";
 import Footer from "./components/Footer";
-import './index.css';
+import Dashboard from "./container/Dashboard";
+import Edit from "./container/Edit";
+import Setting from "./container/Setting";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Navig />
         <Switch>
           <Route path="/" component={Dashboard} exact />
+          <Route path="/edit-profile" component={Edit} exact />
+          <Route path="/setting" component={Setting} exact />
         </Switch>
         <Footer />
       </div>
