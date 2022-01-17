@@ -61,6 +61,11 @@ const Edit = () => {
 											<i class="bi bi-folder-check fa-fw me-2"></i>
 											Orders
 										</a>
+				                        <a class="list-group-item" 
+				                            href="/payouts">
+				                            <i class="bi bi-wallet2 fa-fw me-2"></i>
+				                            Payouts
+				                        </a>
 										<a class="list-group-item active" 
 											href="edit-profile">
 											<i class="bi bi-pencil-square fa-fw me-2"></i>
