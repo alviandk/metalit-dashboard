@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Dashboard from "./container/Dashboard";
 import Edit from "./container/Edit";
 import Setting from "./container/Setting";
+import Order from "./container/Order";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" component={Dashboard} exact />
           <Route path="/edit-profile" component={Edit} exact />
           <Route path="/setting" component={Setting} exact />
+          <Route path="/order" component={Order} exact />
         </Switch>
         <Footer />
       </div>

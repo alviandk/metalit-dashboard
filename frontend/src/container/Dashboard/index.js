@@ -63,6 +63,11 @@ const Dashboard = () => {
 											<i class="bi bi-cart-check fa-fw me-2"></i>
 											Wishlist
 										</a>
+				                        <a class="list-group-item" 
+				                          href="/order">
+				                          <i class="bi bi-folder-check fa-fw me-2"></i>
+				                          Orders
+				                        </a>
 										<a class="list-group-item" 
 											href="edit-profile">
 											<i class="bi bi-pencil-square fa-fw me-2"></i>
