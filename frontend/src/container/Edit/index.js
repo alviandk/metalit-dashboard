@@ -32,27 +32,27 @@ const Edit = () => {
 
 									<div class="list-group list-group-dark list-group-borderless">
 										<a class="list-group-item" 
-											href="\">
+											href="/">
 											<i class="bi bi-ui-checks-grid fa-fw me-2"></i>
 											Dashboard
 										</a>
 										<a class="list-group-item" 
-											href="student-subscription.html">
+											href="/student-subscription">
 											<i class="bi bi-card-checklist fa-fw me-2"></i>
 											My Subscriptions
 										</a>
 										<a class="list-group-item" 
-											href="student-course-list.html">
+											href="/student-course-listl">
 											<i class="bi bi-basket fa-fw me-2"></i>
 											My Courses
 										</a>
 										<a class="list-group-item"
-											href="student-payment-info.html">
+											href="/student-payment-info">
 											<i class="bi bi-credit-card-2-front fa-fw me-2"></i>
 											Payment info
 										</a>
 										<a class="list-group-item" 
-											href="student-bookmark.html">
+											href="/student-bookmark">
 											<i class="bi bi-cart-check fa-fw me-2"></i>
 											Wishlist
 										</a>
@@ -67,22 +67,22 @@ const Edit = () => {
 				                            Payouts
 				                        </a>
 										<a class="list-group-item active" 
-											href="edit-profile">
+											href="/edit-profile">
 											<i class="bi bi-pencil-square fa-fw me-2"></i>
 											Edit Profile
 										</a>
 										<a class="list-group-item" 
-											href="setting">
+											href="/setting">
 											<i class="bi bi-gear fa-fw me-2"></i>
 											Settings
 										</a>
 										<a class="list-group-item" 
-											href="instructor-delete-account.html">
+											href="/delete-account">
 											<i class="bi bi-trash fa-fw me-2"></i>
 											Delete Profile
 										</a>
 										<a class="list-group-item text-danger bg-danger-soft-hover" 
-											href="#">
+											href="/">
 											<i class="fas fa-sign-out-alt fa-fw me-2"></i>
 											Sign Out
 										</a>
@@ -246,7 +246,7 @@ const Edit = () => {
 													class="btn btn-sm btn-danger mb-0">
 													Invoke
 												</button>
-												<a href="#" 
+												<a href="/" 
 													class="btn btn-sm btn-link text-body mb-0">
 													Learn more
 												</a>
@@ -267,7 +267,7 @@ const Edit = () => {
 												class="btn btn-sm btn-primary mb-0">
 												Connect Linkedin
 											</button>
-											<a href="#" 
+											<a href="/" 
 												class="btn btn-sm btn-link text-body mb-0">
 												Learn more
 											</a>
@@ -285,7 +285,7 @@ const Edit = () => {
 												class="btn btn-sm btn-primary mb-0">
 												Connect Facebook
 											</button>
-											<a href="#" 
+											<a href="/" 
 												class="btn btn-sm btn-link text-body mb-0">Learn more
 											</a>
 										</div>

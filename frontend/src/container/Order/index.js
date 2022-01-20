@@ -33,27 +33,27 @@ const Order = () => {
 
                         <div class="list-group list-group-dark list-group-borderless">
                           <a class="list-group-item" 
-                            href="\">
+                            href="/">
                             <i class="bi bi-ui-checks-grid fa-fw me-2"></i>
                             Dashboard
                           </a>
                           <a class="list-group-item" 
-                            href="student-subscription.html">
+                            href="/subscription">
                             <i class="bi bi-card-checklist fa-fw me-2"></i>
                             My Subscriptions
                           </a>
                           <a class="list-group-item" 
-                            href="student-course-list.html">
+                            href="/course-list">
                             <i class="bi bi-basket fa-fw me-2"></i>
                             My Courses
                           </a>
                           <a class="list-group-item"
-                            href="student-payment-info.html">
+                            href="/payment-info">
                             <i class="bi bi-credit-card-2-front fa-fw me-2"></i>
                             Payment info
                           </a>
                           <a class="list-group-item" 
-                            href="student-bookmark.html">
+                            href="/bookmark">
                             <i class="bi bi-cart-check fa-fw me-2"></i>
                             Wishlist
                           </a>
@@ -68,22 +68,22 @@ const Order = () => {
                             Payouts
                           </a>
                           <a class="list-group-item" 
-                            href="edit-profile">
+                            href="/edit-profile">
                             <i class="bi bi-pencil-square fa-fw me-2"></i>
                             Edit Profile
                           </a>
                           <a class="list-group-item" 
-                            href="setting">
+                            href="/setting">
                             <i class="bi bi-gear fa-fw me-2"></i>
                             Settings
                           </a>
                           <a class="list-group-item" 
-                            href="instructor-delete-account.html">
+                            href="/delete-account">
                             <i class="bi bi-trash fa-fw me-2"></i>
                             Delete Profile
                           </a>
                           <a class="list-group-item text-danger bg-danger-soft-hover" 
-                            href="#">
+                            href="/">
                             <i class="fas fa-sign-out-alt fa-fw me-2"></i>
                             Sign Out
                           </a>
@@ -146,12 +146,12 @@ const Order = () => {
                           <tr>
                             <td>
                               <h6 class="mt-2 mt-lg-0 mb-0">
-                                <a href="#">The complete Digital Marketing Course - 8 Course in 1</a>
+                                <a href="/">The complete Digital Marketing Course - 8 Course in 1</a>
                               </h6>
                             </td>
 
                             <td class="text-center text-sm-start text-primary-hover">
-                              <a href="#" class="text-body"><u>#125489</u></a>
+                              <a href="/" class="text-body"><u>#125489</u></a>
                             </td>
 
                             <td>18/8/2021</td>
@@ -162,12 +162,12 @@ const Order = () => {
                           <tr>
                             <td>
                               <h6 class="mt-2 mt-lg-0 mb-0">
-                                <a href="#">Time Management Mastery: Do More, Stress Less</a>
+                                <a href="/">Time Management Mastery: Do More, Stress Less</a>
                               </h6>
                             </td>
 
                             <td class="text-center text-sm-start text-primary-hover">
-                              <a href="#" class="text-body"><u>#235486</u></a>
+                              <a href="/" class="text-body"><u>#235486</u></a>
                             </td>
 
                             <td>25/7/2021</td>
@@ -178,12 +178,12 @@ const Order = () => {
                           <tr>
                             <td>
                               <h6 class="mt-2 mt-lg-0 mb-0">
-                                <a href="#">Building Scalable APIs with GraphQL</a>
+                                <a href="/">Building Scalable APIs with GraphQL</a>
                               </h6>
                             </td>
 
                             <td class="text-center text-sm-start text-primary-hover">
-                              <a href="#" class="text-body"><u>#0215789</u></a>
+                              <a href="/" class="text-body"><u>#0215789</u></a>
                             </td>
 
                             <td>4/9/2020</td>
@@ -194,12 +194,12 @@ const Order = () => {
                           <tr>
                             <td>
                               <h6 class="mt-2 mt-lg-0 mb-0">
-                                <a href="#">Sketch from A to Z: for app designer</a>
+                                <a href="/">Sketch from A to Z: for app designer</a>
                               </h6>
                             </td>
 
                             <td class="text-center text-sm-start text-primary-hover">
-                              <a href="#" class="text-body"><u>#0135689</u></a>
+                              <a href="/" class="text-body"><u>#0135689</u></a>
                             </td>
 
                             <td>5/6/2021</td>
@@ -210,12 +210,12 @@ const Order = () => {
                           <tr>
                             <td>
                               <h6 class="mt-2 mt-lg-0 mb-0">
-                                <a href="#">Build Responsive Websites with HTML</a>
+                                <a href="/">Build Responsive Websites with HTML</a>
                               </h6>
                             </td>
 
                             <td class="text-center text-sm-start text-primary-hover">
-                              <a href="#" class="text-body"><u>#0587623</u></a>
+                              <a href="/" class="text-body"><u>#0587623</u></a>
                             </td>
 
                             <td>2/6/2021</td>
@@ -226,12 +226,12 @@ const Order = () => {
                           <tr>
                             <td>
                               <h6 class="mt-2 mt-lg-0 mb-0">
-                                <a href="#">JavaScript: Full Understanding</a>
+                                <a href="/">JavaScript: Full Understanding</a>
                               </h6>
                             </td>
    
                             <td class="text-center text-sm-start text-primary-hover">
-                              <a href="#" class="text-body"><u>#0215789</u></a>
+                              <a href="/" class="text-body"><u>#0215789</u></a>
                             </td>
 
                             <td>14/1/2021</td>
@@ -252,21 +252,21 @@ const Order = () => {
                         aria-label="navigation">
                         <ul class="pagination pagination-sm pagination-primary-soft mb-0 pb-0">
                           <li class="page-item mb-0">
-                            <a class="page-link" href="#" tabindex="-1">
+                            <a class="page-link" href="/" tabindex="-1">
                               <i class="fas fa-angle-left"></i>
                             </a>
                           </li>
                           <li class="page-item mb-0">
-                            <a class="page-link" href="#">1</a>
+                            <a class="page-link" href="/">1</a>
                           </li>
                           <li class="page-item mb-0 active">
-                            <a class="page-link" href="#">2</a>
+                            <a class="page-link" href="/">2</a>
                           </li>
                           <li class="page-item mb-0">
-                            <a class="page-link" href="#">3</a>
+                            <a class="page-link" href="/">3</a>
                           </li>
                           <li class="page-item mb-0">
-                            <a class="page-link" href="#">
+                            <a class="page-link" href="/">
                               <i class="fas fa-angle-right"></i>
                             </a>
                           </li>
